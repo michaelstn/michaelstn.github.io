@@ -1,0 +1,130 @@
+body{
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 72px;
+    display: block;
+}
+p{
+    margin: 0;
+}
+a{
+    color: #9d9d9d;
+    text-decoration: unset;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+    /*background-color: #fff;*/
+    font-size: 16px;
+}
+a.ActiveTab{
+    color: #000;
+    /*text-decoration: underline;*/
+} 
+.block{
+    width: 100%;
+    display: block;
+    max-width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Evgen{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.EvgenText{
+    padding: 20% 0;
+}
+.EvgenPic{
+    max-height: 800px;
+    background-color: #9d9d9D;
+}
+@font-face {
+    font-family: tyz;
+    src: url(./font/tyz.otf);
+}
+.House{
+    margin-bottom: 120px;
+}
+.HousePics{
+    /*border: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    border-collapse: collapse;
+    text-indent: 0;*/
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HousePic{
+    max-width: 368px;
+}
+.Cat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.CatPic{
+    max-width: 752px;
+}
+.Video{
+    margin-bottom: 120px;
+}
+.QRcode{
+    display: flex;
+    /*justify-content: space-between;*/
+    /*display: block;*/
+    margin-bottom: 160px;
+}
+.QRcodeText{
+    width: 17%;
+}
+.QRcodePic{
+    max-width: 560px;
+    max-height: 560px;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.Footer{
+    /*padding-left: 33%;*/
+    margin-bottom: 160px;
+}
+.FooterText {
+    padding-left: 33.3%;
+}
+
+
+.Works{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-shrink: 0;
+    gap: 80px 16px;
+    flex-wrap: wrap;
+}
+.Work{
+    text-align: center;
+    min-width: 368px;
+}
+.WorkText{
+    font-size: 16px;
+}
+.WorkPic{
+    max-width: 368px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    margin-bottom: 24px;
+}
